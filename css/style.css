@@ -239,14 +239,13 @@ section {
   font-size: 38px;
 }
 
-.section-title {
+/*.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
   display: inline-block;
-  border-bottom: 3px solid;
-}
+  b*/
 
 .primary-border {
   border-color: #fce138;
@@ -284,4 +283,19 @@ section {
 
 .text-right {
   text-align: right;
+}
+.contact-info{
+  align-content: center;
+  background: #024e76;
+}
+.section-title {
+  font-size: 55px;
+  display: inline-block;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: #024e76;
+}
+.contact-h2 {
+  color: #fce138;
 }
