@@ -95,6 +95,7 @@
 
 body {
   /* more on this crazy alphanumerical value in a minute! */
+  flex-wrap: wrap;
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -139,20 +140,23 @@ header nav ul li a {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
 }
 
 footer h2 {
-  display: inline;
+  display: flex;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float: right;
+  
   line-height: 1.5;
   text-align: right;
 }
@@ -162,11 +166,14 @@ footer a {
 }
 
 section {
+  flex-wrap: wrap;
   padding: 60px;
 }
 
 /* Hero Style Start */
 .hero {
+  
+  flex-wrap: wrap;
   background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
@@ -176,6 +183,9 @@ section {
 /* Hero Style End */
 
 .hero-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
@@ -214,6 +224,21 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+font-size: 55px;
+font-style: italic;
+color: #fce138;
 }
 
 .steps {
